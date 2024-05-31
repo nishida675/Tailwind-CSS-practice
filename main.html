@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS 練習</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #ADD8E6;
+            /* 薄い青色 */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="w-8 bg-white">32px</div>
+    <div class="w-full bg-white">100％</div>
+    <div class="max-w-xs bg-white">Text</div>
+    <div class="h-screen">Text</div>
+    <div class="absolute bottom-4 right-4">Text</div>
+    <div class="flex justify-center items-center gap-4">
+        <div class="bg-white">Left</div>
+        <div class="bg-white">Right</div>
+    </div>
+    <div class="grid grid-cols-3 gap-4">
+        <div class="bg-white">1</div>
+        <div class="bg-white">2</div>
+        <div class="bg-white">3</div>
+        <div class="bg-white">4</div>
+        <div class="bg-white">5</div>
+    </div>
+    <div class="aspect-square w-12 bg-white">Text</div>
+    <div class="mt-8">Text</div>
+    <div class="bg-white px-8 py-4">Text</div>
+    <div class="space-y-4">
+        <div class="bg-white">1</div>
+        <div class="bg-white">2</div>
+        <div class="bg-white">3</div>
+    </div>
+    <div class="text-xs">小さい</div>
+    <div class="text-lg">大きい</div>
+    <div class="text-blue-300">Blue 300</div>
+    <div class="text-blue-700">Blue 700</div>
+    <div class="text-right">右揃え</div>
+    <div class="font-bold">Text</div>
+    <div class="border border-blue-400">Text</div>
+    <div class="rounded-full bg-white">Text</div>
+    <div class="rounded-full bg-white w-10 h-10">Text</div>
+    <div class="divide-y divide-blue-400">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <div class="opacity-40">Text</div>
+    <div>Text</div>
+    <div class="blur-sm">Text</div>
+    <div class="animate-pulse bg-white h-8"></div>
+    <div class="animate-spin bg-white w-8 h-8"></div>
+    <button class="transition hover:opacity-40">Text</button>
+</body>
+
+</html>
